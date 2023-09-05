@@ -23,8 +23,8 @@
             <div class="position-relative bg-decorate">
                 <img id="rightBg" src="/images/bg-rectangle.png"/> 
                 <img id="rightArrowBg" src="/images/bg-right-arrow.png">
-                <img id="greenCircleDown" src="/images/Polygon 2.svg">
-                <img id="featherOrg" src="/images/image-org.png"/> 
+                <img id="greenCircleDown" class="d-none d-xxl-block" src="/images/Polygon 2.svg">
+                <img id="featherOrg" class="d-none d-xxl-block" src="/images/image-org.png"/> 
                 <img id="smallGreen_circleDown" src="/images/Polygon 2.svg">
                 <img id="feather_black_left" src="/images/image-org-black.png"/>
                 <img id="feather_black_top" src="/images/image-org-left.png"/>
@@ -86,7 +86,7 @@
                     </div>
                 </nav>
                 <!-- main content -->
-                <div class="mainContent container d-flex justify-content-between px-5">
+                <div class="mainContent container d-flex justify-content-between gap-5 px-5">
                 <div class="mainInfo align-self-center">
                     <p class="brandTitle mediumFont">
                         World class badminton coaching & premium courts
@@ -96,7 +96,7 @@
                         and Start Your Training
                     </h1>
                     <p class="subTitle mediumFont mb-5">
-                        Unleash your athletic potential with expert coaching, state-of-the-art facilities,<br/> 
+                        Unleash your athletic potential with expert coaching, state-of-the-art facilities,
                         and personalized training programs.
                     </p>
                     <div class="searchFilter">
@@ -120,7 +120,7 @@
 
                     </div>
                 </div>
-                <div class="mainProfile">
+                <div class="mainProfile d-none d-xxl-block">
                     <div class="profileShape position-relative">
                         <img src="/images/Rectangle 9.png"/>
                     </div>
@@ -159,7 +159,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="flowButton">
+                            <button class="col-12 flowButton">
                                 <span>Register Now</span>
                                 <img src="/images/page2/arrow-right.svg" alt="Register now button"/>
                             </button>
@@ -177,7 +177,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="flowButton">
+                            <button class="col-12 flowButton">
                                 <span>Go To Coaches</span>
                                 <img src="/images/page2/arrow-right-white.svg" alt="Go To Coaches"/>
                             </button>
@@ -196,7 +196,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="flowButton">
+                            <button class="col-12 flowButton">
                                 <span>Book Now</span>
                                 <img src="/images/page2/arrow-right.svg" alt="Book Now"/>
                             </button>
@@ -402,12 +402,12 @@
        <section id="frame4" class="py-5">
           <div class="fram4_wrapper py-4 position-relative">
             <img id="leftEllipse" src="images/page4/left-ellipse.svg"/>
-            <img id="BadmintonPlayer" src="/images/page4/badminton-play.png"/>
+            <img id="BadmintonPlayer" class="d-none d-md-block" src="/images/page4/badminton-play.png"/>
             <img id="featherLeft" src="/images/page4/feather-down-right.png"/>
             <img id="featherRight" src="/images/page4/feather-down-bg.png"/>
-            <div class="newLetterContainer container px-5 d-flex">
-                <div class="newLetterImgContainer">
-                    <img src="/images/page4/newletter-cover.png" alt="newLetter"/>
+            <div class="newLetterContainer container px-5 d-flex flex-column flex-xxl-row">
+                <div class="d-none d-xxl-block newLetterImgContainer">
+                    <img style="width: 100%;" src="/images/page4/newletter-cover.png" alt="newLetter"/>
                 </div>
                 <div class="emailForm position-relative">
                     <img id="newsLetter_innerEllipse" src="/images/page4/inner-bg-ellipse.svg"/>
@@ -415,7 +415,7 @@
                         <img src="/images/page4/messgae-transfer.svg"/>
                         <h3 class="subscribeNewsletter mt-2">Subscribe to Newsletter</h3>
                         <p class="pb-3">Just for you, exciting badminton news updates.</p>
-                        <div class="formContainer position-relative">
+                        <div class="formContainer position-relative flex-wrap">
                            <img src="/images/page4/u_fast-mail-alt.svg" class="emailIcon"/>
                            <input id="emailField" type="email" placeholder="Enter email address"/>
                            <button type="button" class="subscribeBtn">Subscribe</button>
@@ -438,8 +438,8 @@
                         <img src="/images/page5/user-plus.svg" alt="Join with us"/>Join With Us
                     </button>
                 </div>
-                <div class="footer_links py-5 d-flex justify-content-between">
-                    <div class="contact_links">
+                <div class="footer_links  py-5 d-block d-lg-flex flex-lg-nowrap justify-content-between">
+                         <div class="contact_links">
                         <div class="links_head">Contact us</div>
                         <div class="contact_link_list py-3">
                                 <div>

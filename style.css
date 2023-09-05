@@ -173,7 +173,12 @@ main{
 }
 
 .mainInfo{
-    width: 58%;
+    /* width: 58%; */
+}
+
+.mainContent{
+    align-items: center;
+    height: 85%;
 }
 
 .brandTitle{
@@ -257,9 +262,9 @@ main{
 #rightBg{
     position: absolute;
     top: 191px;
-    left: 865px;
-    width: 714px;
-    height: 564px;
+    left: 57%;
+    width: 43%;
+    height: 91%;
     transform: rotate(1.841deg) translate(174px,-255px);
     z-index: -1;
 }
@@ -358,11 +363,12 @@ main{
 .workFlow{
     display: flex;
     gap: 25px;
+    justify-content: space-between;
 }
 
 .flowSteps{
     display: flex;
-    width: 32%;
+    width: 30%;
     padding: 25px;
     flex-direction: column;
     justify-content: center;
@@ -372,6 +378,15 @@ main{
     border: 1px solid #EAEDF0;
     background: var(--white);
     box-shadow: 0px 4px 24px 0px rgba(212, 212, 212, 0.25);
+}
+
+@media screen and (max-width: 1024px){
+    .workFlow{
+        flex-wrap:wrap;
+    }
+    .flowSteps{
+        width: 100% !important ;
+    } 
 }
 
 .flowCardTop{
@@ -394,7 +409,7 @@ main{
 
 .flowContent{
     display: flex;
-    width: 336px;
+    /* width: 336px; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -418,7 +433,7 @@ main{
 
 .flowButton{
     display: flex;
-    width: 336px;
+    /* width: 336px; */
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -451,15 +466,15 @@ main{
 
 #frame2_shuttleCock{
     position: absolute;
-    left: 100px;
-    top: 100px;
-    width: 84px;
+    left: 2%;
+    top: 16%;
+    width: 70px;
     z-index: -1;
 }
 
 #frame2_shuttleBat{
     position: absolute;
-    left: 817px;
+    left: 47%;
     top: 2px;
     z-index: -1;
 }
@@ -507,7 +522,7 @@ main{
 
 .featuresImgContainer{
     border-radius: 20px 20px 0 0;
-    width: 390px;
+    /* width: 390px; */
     height: 250px;
 }
 
@@ -644,20 +659,20 @@ main{
 
 #frame3_shuttleCock{
     position: absolute;
-    left: 850px;
-    top: 0px;
+    left: 49%;
+    top: 0.3%;
 }
 
 #frame3_featherCock{
     position: absolute;
-    top: 572px;
-    left: 78px;
+    top: 61%;
+    left: 2%;
     z-index: 1;
 }
 
 #frame3_rightAngle{
     position: absolute;
-    top: 423px;
+    top: 46%;
 }
 
 .viewFeatures button,.subscribeBtn{
@@ -677,7 +692,7 @@ main{
 }
 
 .emailForm{
-    width: 100%;
+    /* width: 100%; */
     border-radius: 0px 10px 10px 0px;
     background: linear-gradient(94deg, #006177 -2.6%, #269089 67.39%, #7ABC84 111.84%);
     padding: 80px;
@@ -725,12 +740,13 @@ main{
     position: absolute;
     bottom: -43px;
     left: -14px;
+    z-index: 1;
 }
 
 #featherLeft{
     position: absolute;
-    top: -26px;
-    left: 102px;
+    top: -4%;
+    left: 3%;
 }
 
 #featherRight{
